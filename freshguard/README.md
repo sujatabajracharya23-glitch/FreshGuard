@@ -68,3 +68,4 @@ Open **http://localhost:5173** in your browser. The app talks to the API at `htt
 ## Note on Iteration scope
 
 Per the team's Work Breakdown Structure (Assignment 1), UC2 and UC5 full implementation was scheduled under Iteration 2 (WBS 5.1/5.2), while Iteration 1 (WBS 4.2–4.4) covered UC1, UC3 and UC4. However, Assignment 2's brief states Iteration 1 coding/testing is **individual** work per student on the use cases assigned to them in Assignment 1. This prototype gives Sujata's UC2/UC5 module a working, testable Iteration 1 build ahead of the group's Iteration 2 milestone, so there is demonstrable individual progress, Git history, and test evidence for the Iteration 1 submission.
+ 
