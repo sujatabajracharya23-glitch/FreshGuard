@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="FreshGuard Project" company="HELP University - BIT216" webLink="" view-date="2026-08-20" view-index="0" gantt-divider-location="1" resource-divider-location="300" version="3.3.3316" locale="en_US">
+    <description>Updated Gantt chart reconstructed from the team's real WBS structure (Assignment 1 baseline) with Iteration 1 &amp; 2 actual progress. Green = complete and verified; dark green = Sujata's own work, verified in this project (UC2/UC5 build + testing); orange = owner still needs to confirm actual status; milestones shown as diamonds. Iteration 1 due 24 Jul 2026, Iteration 2 due 21 Aug 2026.</description>
+    <view zooming-state="default:1" id="gantt-chart">
+        <field id="tpd3" name="Name" width="360" order="0"/>
+        <field id="tpd4" name="Begin date" width="89" order="1"/>
+        <field id="tpd5" name="End date" width="89" order="2"/>
+        <field id="tpd6" name="Duration" width="66" order="3"/>
+        <field id="tpd7" name="completion" width="60" order="4"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="ce9cd752c50143438882117f525c7636" name="1.1-1.5 Project Title, Overview, Aims, Objectives, Scope" color="#2E7D32" meeting="false" start="2026-05-26" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="50a5ecf5abfa4e30a3266a226df51957" name="1.6.1 Derive Work Breakdown Structure" color="#2E7D32" meeting="false" start="2026-05-26" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="ab1932da95f3440396e35a4ef7476af1" name="1.6.2 Determine Milestones &amp; Deliverables" color="#2E7D32" meeting="false" start="2026-05-26" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="f54ea5c644d349279805ef4b631d23c3" name="1.6.3 Derive Gantt Chart" color="#2E7D32" meeting="false" start="2026-05-26" duration="7" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="4203917164bc4858a76592f71b272b08" name="1.7 Gantt Chart File (.gan) - Milestone" color="#5B7FA6" meeting="true" start="2026-06-02" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="9110131af4ba412096729d1c715ae94c" name="1.8.1 Development Platform &amp; Tools" color="#2E7D32" meeting="false" start="2026-06-02" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="fd68c4e4e2c0441fa9d9205d761fc936" name="1.8.2 Demonstration Platform" color="#2E7D32" meeting="false" start="2026-06-02" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="94d9309aa0e8485e9270575ed65de80c" name="1.9 Risk Management Plan" color="#2E7D32" meeting="false" start="2026-06-02" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="278a9d16c2db4dbcb7b23a4875e51a27" name="1.10-1.11 Review, Turnitin Check, Task 1 Submission - Milestone" color="#5B7FA6" meeting="true" start="2026-06-09" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="29d7d11affb24a92affa74866fa65499" name="2.1-2.2 Functional &amp; Non-Functional Requirements" color="#2E7D32" meeting="false" start="2026-06-09" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="aaea03c7f2544aaf930d104fdf06de58" name="2.3.1/2.3.4 UC1 &amp; UC4 Requirements" color="#2E7D32" meeting="false" start="2026-06-09" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="6aabe960f147401f9fd7293dcd3a2c26" name="2.3.3/2.3.6 UC3 &amp; UC6 Requirements" color="#2E7D32" meeting="false" start="2026-06-09" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="f81ffab99afd4ae397ce1466fd76c1ae" name="2.3.2/2.3.5 UC2 &amp; UC5 Requirements" color="#2E7D32" meeting="false" start="2026-06-09" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="f5e4586565c6432cb322afc28c9d4ad7" name="2.4 Requirements Specification Document - Milestone" color="#5B7FA6" meeting="true" start="2026-06-23" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="079d3c42ffed498bb2af7784619995c5" name="3.1-3.4 System Design (Architecture, ERD, Wireframes)" color="#2E7D32" meeting="false" start="2026-06-23" duration="7" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="a1f884db0d8542a697ed2cf134384d28" name="3.6 Design Document Complete - Milestone" color="#5B7FA6" meeting="true" start="2026-06-30" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="17" uid="b940fab5beac4352bcb5fc9c70ba0803" name="4.1 Project Setup (React, Node.js/Express, MySQL, Git)" color="#2E7D32" meeting="false" start="2026-06-30" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" uid="0b82b4324a4c43918cd7d64880f726f9" name="4.2 Implement UC1 - Register Users &amp; Privacy" color="#E67E22" meeting="false" start="2026-07-07" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="ba55cbdcc30648dfa9e1f656ca5493d4" name="4.3 Implement UC4 - Food Analytics" color="#E67E22" meeting="false" start="2026-07-07" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" uid="36bddd3a5490471daedf02071c91e868" name="4.4 Implement UC3 - Browse Food Items" color="#E67E22" meeting="false" start="2026-07-07" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" uid="9441675ada21421b8fb6051733bb8e09" name="5.1 Implement UC2 - Manage Food Inventory" color="#1B5E20" meeting="false" start="2026-07-07" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" uid="cc206f9e7d9f4681acac9cd54643959f" name="5.2 Implement UC5 - View Notifications" color="#1B5E20" meeting="false" start="2026-07-07" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" uid="e992c3f72ef4494ea4a7529f841fb78e" name="Iteration 1 Unit Testing (UC2/UC5: 20 cases, 100% pass)" color="#1B5E20" meeting="false" start="2026-07-21" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" uid="55c2b27233654c6ea8872bc82a2dca2c" name="4.7 Iteration 1 Prototype Complete - Milestone" color="#5B7FA6" meeting="true" start="2026-07-24" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" uid="58af66291527446aa56d02328245ec4e" name="5.3 Implement UC6 - Plan Weekly Meals" color="#E67E22" meeting="false" start="2026-07-21" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" uid="6e2a034ccc45419b947923b8fa7c4e8b" name="Iteration 2 Selenium Automated Testing (UC2/UC5: 4 scripts, 100% pass)" color="#1B5E20" meeting="false" start="2026-07-21" duration="24" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" uid="a1241f6100434bb7acd38950f1f03b8b" name="Iteration 2 Testing - Other Use Cases (UC1, UC3, UC4, UC6)" color="#E67E22" meeting="false" start="2026-07-21" duration="24" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" uid="a0bbe72d418047b7b74d923e7c75cc3a" name="6.1-6.2 End-to-End Testing &amp; UAT" color="#E67E22" meeting="false" start="2026-08-11" duration="4" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" uid="78d4382e9d12476d8ab9d91d7c36bf71" name="6.3 Bug Fixing &amp; Optimization" color="#E67E22" meeting="false" start="2026-08-14" duration="4" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" uid="0d902e8535004a799875621d12058d82" name="6.4-6.5 Documentation Finalisation &amp; Final Review" color="#E67E22" meeting="false" start="2026-08-18" duration="3" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" uid="a20d869eaf384633825a8ea76bb8038a" name="5.6/6.6 Full System Complete &amp; Final Submission - Milestone" color="#5B7FA6" meeting="true" start="2026-08-21" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Simran Gopali" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Sujata Bajracharya" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Shraddha Sedhai" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
